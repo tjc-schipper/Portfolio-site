@@ -595,8 +595,8 @@ h5.project-title{
 */
 
 .header .logo{
-	width: 12.5rem;
-	padding-top: 2.4rem;
+	width: 20rem;
+	padding-top: 3.4rem;
 	padding-bottom: 0;
 }
 .header .navigation{
@@ -734,22 +734,22 @@ h5.project-title{
 	border-top: 1px solid #666;
 }
 .navigation .smb-1 ul:before{
-	background-color: #6ed3cf;
+	background-color: #83af9b;
 }
 .navigation .smb-2 ul:before{
-	background-color: #6ed3cf;
+	background-color: #83af9b;
 }
 .navigation .smb-3 ul:before{
-	background-color: #6ed3cf;
+	background-color: #83af9b;
 }
 .navigation .smb-4 ul:before{
-	background-color: #6ed3cf;
+	background-color: #83af9b;
 }
 .navigation .smb-5 ul:before{
-	background-color: #6ed3cf;
+	background-color: #83af9b;
 }
 .navigation .smb-6 ul:before{
-	background-color: #6ed3cf;
+	background-color: #83af9b;
 }
 
 /* Side Navigation Colors & Sizes */
@@ -839,7 +839,7 @@ h5.project-title{
 
 /* Compact Header on Scroll */
 .header.header-compact .logo{
-	width: 9rem;
+	width: 20rem;
 }
 .header.header-compact .logo{
 	padding-top: 1.1rem;
@@ -1269,11 +1269,16 @@ h5.project-title{
 .project-2-slider li{
 	background: #fff;
 }
-.hero-2-project-2{
-	background-image: url(../images/portfolio/project-2/hero-fw.jpg);
+.hero-2-project-reactor{
+	background-image: url(../images/portfolio/reactor/prototype.jpg);
 }
 .hero-5-project-2 > .row:after{
 	background-image: url(../images/portfolio/project-2/hero-half.jpg);
+}
+
+/* REACTOR */
+.hero-5-project-reactor > .row:after{
+	background-image: url(../images/portfolio/reactor/circle-graphic.png);
 }
 
 /* Project 3 */

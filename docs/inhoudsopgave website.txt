@@ -1,0 +1,30 @@
+HOME
+	"Ik ben hip en een designer. Wat doe ik in grote lijnen."
+	Wat is mijn huidige status? Ben ik op zoek naar werk?
+	Blogposts en nieuws
+	Calls to action:
+		> Bekijk mijn werkwijze
+		> Bekijk mijn portfolio
+		> Neem contact met mij op
+
+///////////////////////NEEDS WORK!////////////////////////////////
+OVER MIJ
+	Mij als persoon en designer
+		"Skills, ervaring, rollen"
+			-> Allrounder, prototype, analytisch, user research.
+
+APPROACH
+	#1: Design (delft). Methodisch.
+	#2: Visie op game design
+	Designproces, iteratief, gebaseerd op visie.
+	Gebruikerservaring centraal.
+//////////////////////////////////////////////////////////////////
+
+(BLOG)
+WERK
+	"Portfolio, gesorteerd op Virtual reality / Game design / Interaction design / Industrial design"
+	Calls to action:
+		> Neem contact met mij op! (Link naar vooraf ingevulde mail? :D Zie contact).
+		> Waar appropriate: 
+CONTACT
+	Email form (met voorin ingestelde tekst? :D )
