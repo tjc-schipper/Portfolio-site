@@ -1289,6 +1289,15 @@ h5.project-title{
 	background-image: url(../images/portfolio/project-3/hero-half.jpg);
 }
 
+/* Reactor */
+.hero-5-project-nrg > .row:after{
+	background-image: url(../images/portfolio/nrg/profiling.png);
+}
+
+.hero-5-project-nrg > .row:before{
+	background-image: url(../images/portfolio/nrg/house-selection-1.png);
+}
+
 /* Project 4 */
 .project-4-1{
 	background-image: url(../images/portfolio/project-4/fullscreen-section-1.jpg);
