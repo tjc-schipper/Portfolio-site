@@ -1109,7 +1109,7 @@ h5.project-title{
 	background-image: url(../images/generic/hero-half-2.jpg);
 }
 .hero-5-homepage-3 > .row:after{
-	background-image: url(../images/generic/hero-half-3.jpg);
+	background-image: url(../images/portfolio/knowledge/cover.png);
 }
 [cass*="hero-5-homepage"] .stats-1 .counter{
 	color: #fff;
@@ -1170,7 +1170,7 @@ h5.project-title{
 	background-image: url(../images/generic/hero-half-5.jpg);
 }
 .hero-5-about-2 > .row:after{
-	background-image: url(../images/team/hero-half-2.jpg);
+	background-image: url(../images/profile/myface-4.jpg);
 }
 .hero-5-about-3 > .row:after{
 	background-image: url(../images/team/hero-half-3.jpg);
@@ -2491,6 +2491,14 @@ a.disabled .text-line{
 	height: 0.9rem;
 	line-height: 0rem;
 }
+
+.progress-bar.skills{
+	height: 1.2rem;
+	line-height: 0rem;
+	margin-top: -1.2rem;
+}
+/* THIJS */
+
 
 /*------------------------------------------------------------------
 [23. Resolution Media Queries]
