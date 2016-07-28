@@ -1,0 +1,85 @@
+Through experience working in academic and commercial contexts, I identified 
+At the risk of sounding pretentious, I've named my preferred approach. "Design by doing".
+
+Recap "design by doing"
+3 Principes
+	Productontwikkeling is een proces van leren
+	Daarom zo lang mogelijk flexibiliteit houden
+	Je leert het beste door te doen
+Waar komt het vandaan
+	Frustraties met waterfall
+	Frustraties met agile
+Wat is het?
+Voordelen?
+
+#INTRO
+Building serious games and VR experiences brings a unique challenge to the table that many other software projects do not have: the experience is everything.
+Even the perfect solution (on paper) won't work if users don't enjoy it, if it doesn't make sense to them or does not motivate them to keep using it. So how do you know if your game is going to be good?
+
+#3 principles
+I believe the following three principles to be true for most, if not all, game development projects.
+
+- Product development is a process of learning.
+- The best way to learn is to do, see, experiment.
+- In order to react to what you learn, you have to stay flexible.
+
+Popular methods and philosophies like Agile(Scrum, XP, Kanban) and Lean attempt to tackle this issue. They focus on flexible delivery, doing as little as possible, testing early+often and iterating on what you have.
+However, where they miss the mark is on the 3rd principle. They are so focused on delivering working code (or *"value"*) as fast as possible that you often end up committing yourself before you really know what you are building. They essentially skip design in favor or building *something, anything* right now and hoping it will work or you can fix it later. The longer or more complex a project is, the more this ends up coming back to you. The end result? Wasted time, a subpar product or missed opportunities.
+
+#My proposal
+Where my approach differs is that I don't believe *value* can only take the form of adding code to the product. Production of code is not a goal in and of itself.
+Instead, I focus on producing *as much progress as possible*. Progress can take the form of code, but it can also be *insight*. Insight into the user, the product's purpose, or effectiveness of your planned design.
+
+#Where do we get insight?
+[Illustratie]
+In one word: prototyping. Make a throw-away, cheap and fast version of whatever it is you want to test. This can be a feature, game mechanic, UI element, graphic style, etc. Then test this prototype with the design team or actual users.
+
+Instead of spending a week adding a feature to the final product (the Agile way), you can often prototype that same feature in one-two days or faster and gain the same insights at a fraction of the cost. This is possible because it is made to be thrown away. It doesn't have to be performant, good looking, bug-free or maintainable.
+
+#So what does the process look like?
+This green part is where I specialize. Using modern technologies, prototyping techniques and design research it is possible to validate designs and test with actual users before you write a single line of final code. Using various forms of prototypes, we identify the core aspects of the product and quickly iterate on them using real-world feedback.
+
+Ultimately, this results in better products ... faster.
+
+Are you interested in this approach, curious about the techniques I use or do you have another question? [Contact me!]
+
+
+
+
+
+
+
+===========================================
+
+What is a method, what does this section explain.
+
+My background as a product designer offers me a unique view on software development. By combining design thinking, user research and coding skills I have been able to develop a method that I believe leads to the best results for clients and end users alike. I have come to call this method "Design by doing". It focuses on making as much progress as possible, as fast as possible.
+
+3 Principles
+
+Design by doing is inspired by 3 core principles.
+
+	Product development is a process of learning
+		Product development is rarely a simple journey from A to B. It is almost impossible to know everything you need to know right from the outset, so you need to keep your eyes open for new insights that help steer the product direction. Continuous iteration is key.
+	Do, see, feel. The best way to learn is informed experimentation.
+		The proof is in the pudding. No sketch, presentation, schematic or design document can replace the value of hands-on experience, *especially* for games and interactive experiences.
+	To react to new insights, stay flexible
+		New insights are useless if you cannot apply them. To get the best result spend as little time as possible tying your future self down.
+
+Prototyping
+	Design by doing focuses on prototyping and hands-on experience to bring the design to a higher level. Rather than designing everything up front (waterfall) or building as soon as possible (agile), my motto is to *Learn as fast as possible*. A throw-away prototype can often teach you as much about a feature or the user experience as a real implementation, but be built *in a fraction of the time* and does not have to be maintained.
+
+	[Quote]Learn as fast as possible[/Quote]
+	[Description]I focus on generating as much progress as possible, as soon as possible. Progress can be production of code or designs, but can also be generation of crucial insights and vision for the product direction. The faster we get the product "just right", the better.[/Description]
+
+	Using flexible technology and advanced design research techniques, I am able to develop fast, focused prototypes. These prototypes can range from cardboard to playable game and from isolated features to holistic experiences. They allow us to see, feel and interact with the intended design before a single line of final code has been written. Further, they allow us to test with actual users and keep their needs and experiences central in our process.
+
+Workflow
+	In my mind, design and development are not separate in the first phases of a project. A designer cannot design without a technical perspective just as a developer cannot develop without a strong design vision to guide them. When these two disciplines join forces and cooperate on generating progress, that's when good things happen.
+
+	As the vision for the product becomes clearer and we home in on a viable design, these disciplines start separating and we get back to a usual workflow. Still, Design by doing does not have to end there. For any given feature or improvement in the lifespan of a product, the high-level design can usually be refined or validated using quick prototypes before significant development time is invested.
+
+Conclusion
+	Ultimately, all that should matter is a good end result. Lines of code or design documents are not a goal in themselves. I believe this is the fastest way to get there.
+
+	
