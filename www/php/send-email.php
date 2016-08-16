@@ -1,7 +1,11 @@
 <?php	
+	
+	require('./autoload-recaptcha.php');
+
 	// Your Email
 	$recipient = "tjc.schipper@gmail.com"; // PLEASE SET YOUR EMAIL ADDRESS
 	$recaptcha_secret = "6LfsuycTAAAAAHV1nRhKBcEqfwWUX00HjVPnFngn";
+	$cap = new \ReCaptcha\ReCaptcha($recaptcha_secret);
 	
 	// Check $recipient
 	if($recipient === '') {
@@ -36,45 +40,26 @@
 	$message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 	
 	
-	// TODO: Captcha check!
-	/* http://stackoverflow.com/questions/27274157/new-google-recaptcha-with-checkbox-server-side-php */
-	function isValid() 
-	{
-		try {
-
-			$url = 'https://www.google.com/recaptcha/api/siteverify';
-			$data = ['secret'   => $recaptcha_secret,
-			'response' => $_POST['g-recaptcha-response'],
-			'remoteip' => $_SERVER['REMOTE_ADDR']];
-
-			$options = [
-			'http' => [
-			'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-			'method'  => 'POST',
-			'content' => http_build_query($data) 
-			]
-			];
-
-			$context  = stream_context_create($options);
-			$result = file_get_contents($url, false, $context);
-			return json_decode($result)->success;
+	// Do Captcha check
+	$cap_response = $cap->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+	if ($cap_response->isSuccess()) {
+		// verified!
+	} else {
+		$errors = $cap_response->getErrorCodes();
+		foreach ($errors as $key => $value) {
+			if ($value === "missing-input-response") {
+				echo 'missing-input-response: User has not been verified by captcha!';
+			}
 		}
-		catch (Exception $e) {
-			return null;
-		}
-	}
-
-	if (!isValid()) {
-		echo '<h2>Please check the captcha box below the form before sending.</h2>';
+		returnAndExitAjaxResponse(
+				constructAjaxResponseArray(
+					FALSE,
+					'ERROR_AT_PHPMAIL',
+					array('error_information'=> error_get_last() )
+					)
+				);
 		exit;
 	}
-
-
-
-
-
-
-
 
 
 
