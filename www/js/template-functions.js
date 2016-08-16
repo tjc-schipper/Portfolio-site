@@ -126,9 +126,9 @@ $( document ).ready( function(){
 	var contactFormValidEmail = 'Please enter a valid email address.';
 
 	// Google Map
-	var mapIcon = ['images/assets/map-marker.png','images/assets/map-marker-2.png'];
-	var mapLocations = [[40.723301,-74.002988],[40.691052,-73.925457]];
-	var mapInfoContent = ['Downtown New York Office<br>44 St. West 32','The Brooklyn Office<br>East Village 55th St.'];
+	var mapIcon = ['images/assets/map-marker.png'];
+	var mapLocations = [[52.0142034, 4.3672381]];
+	var mapInfoContent = ['Home office<br>Delft'];
 	var mapIconW = 45; // Half of actual width
 	var mapIconH = 53; // Half of actual height
 	var mapZoomLevel = 12;
@@ -1402,7 +1402,7 @@ $( document ).ready( function(){
 			// Map options
 			var mapOptions = {
 				zoom: mapZoomLevel,
-				center: new google.maps.LatLng( mapLocations[0][0], mapLocations[0][1] ),
+				center: new google.maps.LatLng( mapLocation[0][0], mapLocation[0][1]),
 				mapTypeControl: mapTypeCtrl,
 				mapTypeControlOptions: {
 					style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
