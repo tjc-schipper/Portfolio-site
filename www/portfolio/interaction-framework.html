@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<!-- Facebook OP meta -->          
+	<meta property="og:title" content="Your-Title-Here" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="Your-Image-Url" />
+	<meta property="og:description" content="Your-Page-Description" />
+	<title>VR Interaction Framework - Thijs Schipper</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
+
+	<!-- Font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/timber.css" />
+	<link rel="stylesheet" href="../css/snowbridge.css" />
+	<link rel="stylesheet" href="../css/avalanche.css" />
+	<link rel="stylesheet" href="../css/templates.css" />
+	<link rel="stylesheet" href="../css/skin.css" />
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+
+    	<script>
+    		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    		ga('create', 'UA-82620621-1', 'auto');
+    		ga('send', 'pageview');
+
+    	</script>
+
+    </head>
+    <body>
+
+    	<!-- Side Navigation Menu -->
+    	<aside id="mobile-access" class="side-navigation-wrapper enter-left">
+    		<div class="side-navigation-header">
+    			<div id="side-nav-hide" class="navigation-hide">
+    				<a href="#">
+    					<span class="icon-cancel medium"></span>
+    				</a>
+    			</div>
+    		</div>
+    		<nav class="side-navigation">
+    			<ul>
+    				<li>
+    					<a href="../index.html">Home</a>
+    				</li>
+    				<li>
+    					<a href="#" class="contains-sub-menu">About me</a>
+    					<ul class="sub-menu">
+    						<li>
+    							<a href="../profile.html">Profile</a>
+    						</li>
+    						<li>
+    							<a href="../approach.html">Approach</a>
+    						</li>
+    					</ul>
+    				</li>
+    				<li>
+    					<a href="../portfolio.html">My work</a>
+    				</li>
+    				<li>
+    					<a href="../blog.html">Blog</a>
+    				</li>
+    				<li>
+    					<a href="../contact.html">Contact</a>
+    				</li>
+    			</ul>
+    		</nav>
+    	</aside>
+    	<!-- Side Navigation Menu End -->
+
+    	<!-- Overlay Navigation Search -->
+    	<div class="overlay-navigation-wrapper">
+    		<div class="overlay-navigation-inner">
+    			<div class="overlay-navigation-header row full-width">
+    				<div id="overlay-nav-hide" class="navigation-hide">
+    					<a href="#">
+    						<span class="icon-cancel medium"></span>
+    					</a>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="column width-8 offset-2">
+    					<div class="search-form-container site-search">
+    						<form action="#" method="get" novalidate>
+    							<div class="row">
+    								<div class="column width-12">
+    									<div class="field-wrapper">
+    										<input type="text" name="search" class="form-search form-element" placeholder="type &amp; hit enter...">
+    										<span class="border"></span>
+    									</div>
+    								</div>
+    							</div>
+    						</form>
+    						<div class="form-response"></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Overlay Navigation Search End -->
+
+    	<div class="wrapper">
+    		<div class="wrapper-inner">
+
+    			<!-- Header -->
+    			<header class="header-1 header header-fixed-on-mobile" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="300">
+    				<div class="header-inner">
+    					<div class="row nav-bar reveal-side-navigation">
+    						<div class="column width-12 nav-bar-inner">
+    							<div class="logo">
+    								<a href="../index.html"><img src="../images/logo.png" alt="Conrad Logo White" /></a>
+    							</div>
+    							<div id="side-nav-show" class="navigation-show hide">
+    								<a href="#">
+    									<span class="icon-menu medium"></span>
+    								</a>
+    							</div>
+    							<nav class="navigation">
+    								<ul>
+    									<li class="smb-1">
+    										<a href="../index.html">Home</a>
+    									</li>
+    									<li class="smb-2">
+    										<a href="../profile.html">About me</a>
+    										<ul class="sub-menu">
+    											<li>
+    												<a href="../profile.html">Profile</a>
+    											</li>
+    											<li>
+    												<a href="../approach.html">Approach</a>
+    											</li>
+    										</ul>
+    									</li>
+    									<li class="smb-3 current">
+    										<a href="../portfolio.html">My work</a>
+    									</li>
+    									<li class="smb-4">
+    										<a href="../blog.html">Blog</a>
+    									</li>
+    									<li class="smb-5">
+    										<a href="../contact.html">Contact</a>
+    									</li>
+    									<li id="overlay-nav-show">
+    										<a href="#" class="no-page-fade">Search</a>
+    									</li>
+    								</ul>
+    							</nav>
+    						</div>
+    					</div>
+    				</div>
+    			</header>
+    			<!-- Header End -->
+
+    			<!-- Content -->
+    			<div class="content clearfix reveal-side-navigation">
+
+    				<!-- Fullscreen Slider Section -->
+    				<section class="section-block featured-media">
+    					<div class="tm-slider-container full-width-slider">
+    						<ul class="tms-slides">
+    							<li class="tms-slide" data-image data-force-fit>
+    								<div class="tms-content">
+    									<div class="tms-content-inner">
+    										<div class="row">
+    											<div class="column width-12 left">
+    												<h1 class="tms-caption title-xlarge color-white weight-bold lspacing-medium no-margins"
+    												data-animate-in="opacity:0;transX:40px;duration:600ms;delay:0;easing:easeFastSlow;"
+    												>
+    												VR Interaction Framework
+    											</h1>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+    							<img data-src="../images/slider/slide-2-fw.jpg" data-retina src="../images/blank.png" alt=""/>
+    						</li>
+    					</ul>
+    				</div>
+    			</section>
+    			<!-- Fullscreen Slider Section End -->
+
+    			<!-- Intro Section -->
+    			<section class="section-block replicable-content">
+    				<div class="row">
+    					<div class="column width-8">
+    						<h3 class="weight-bold mb-30">"Getting Hands On"</h3>
+    						<p class="lead">One thing that was sorely lacking with the introduction of motion controllers in VR was natural physical interaction. This experiment set out to change that.</p>
+    						<p>In theory motion controllers should make interacting with the virtual world effortless and natural, but in practice there are many cases where the illusion breaks down or things just don't work as you'd expect.
+    							This framework was created over the course of several days as an exploration of direct object manipulation in virtual reality. The goal was to come up with a <strong>flexible and extendable system that feels right</strong></p>
+    						</div>
+    						<div class="column width-4">
+    							<ul class="list-group">
+    								<li>
+    									<strong>Client</strong>
+    									<p>Independent</p>
+    								</li>
+    								<li>
+    									<strong>Results</strong>
+    									<p>Reusable framework v1<br>
+    										UX insight<br>
+    									</p>
+    								</li>
+    								<li>
+    									<strong>Details</strong>
+    									<p>Unity/C#<br>
+    										Supports Vive and Oculus Touch<br>
+    									</p>
+    								</li>
+    							</ul>
+    						</div>
+    					</div>
+    				</section>
+    				<!-- Intro Section End -->
+
+    				<!-- Hero Section 7 Video Right -->
+    				<section class="section-block hero-7 hero-7-project-1 left bkg-lightgreen">
+    					<div class="row">
+    						<div class="column width-6">
+    							<div class="hero-content split-hero-content">
+    								<div class="hero-content-inner left-on-mobile color-white">
+    									<h3 class="">Core idea</h5>
+    									<p class="lead">"In VR, your hands and your influence on the world are not the same thing."</p>
+    									<p>This idea underpins the design of Hands On. Don't just visualize your hands, <strong>visualize what you are doing with them</strong>. By making your influence on the virtual world a distinct and visible thing, we can solve many of the problems inherent to 'simple' VR interaction.</p>
+    								</div>
+    							</div>
+    						</div>
+    						<div class="column width-6 media-column">
+    							<iframe src="http://player.vimeo.com/video/62053457?title=0&amp;byline=0&amp;portrait=0&amp;color=12e0b7&amp;loop=1" width="500" height="281"></iframe>
+    						</div>
+    					</div>
+    				</section>
+
+    				<!-- Branding Section -->
+    				<section class="section-block replicable-content">
+    					<div class="row">
+    						<div class="column width-12">
+    							<h3 class="weight-bold mb-30">Aims</h3>
+    						</div>
+    						<div class="column width-6">
+    							<p class="lead">Hands-on set out to accompish four things that would improve user experience significantly.</p>
+    							<p>It is not that these systems did not exist yet, but that I felt they had not been unified and made in a way that <strong>feels good to the user</strong></p>
+    						</div>
+    						<div class="column width-6">
+    							<div class="accordion">
+    								<ul>
+    									<li class="active">
+    										<a href="#accordion-1-panel-1">01<span class="text-line bkg-charcoal"></span> Two-handed natural interaction</a>
+    										<div id="accordion-1-panel-1">
+    											<div class="accordion-content">
+    												<p>We are two-handed creatures. Using two hands is what comes most natural to us. Unfortunately many, if not most, VR experiences handicap you into only using one hand at a time.</p>
+    											</div>
+    										</div>
+    									</li>
+    									<li>
+    										<a href="#accordion-2-panel-2">02<span class="text-line bkg-charcoal"></span> Physicality</a>
+    										<div id="accordion-1-panel-2">
+    											<div class="accordion-content">
+    												<p>Everyday objects are not weightless and people do not have infinite strength. For interactions to feel natural, a user needs to feel the weight and volume of an object.</p>
+    											</div>
+    										</div>
+    									</li>
+    									<li>
+    										<a href="#accordion-1-panel-3">02<span class="text-line bkg-charcoal"></span> Clear feedback</a>
+    										<div id="accordion-1-panel-3">
+    											<div class="accordion-content">
+    												<p>Because you cannot physically feel a virtual object, extra care must be taken to clearly communicate what the user is doing with it. </p>
+    											</div>
+    										</div>
+    									</li>
+    								</ul>
+    							</div>
+    						</div>
+    					</div>
+    				</section>
+    				<!-- Branding Section End -->
+
+    				<!-- Portfolio 1 -->
+    				<div class="section-block portfolio-1 bkg-charcoal">
+    					<div class="row">
+    						<div class="column width-12 color-white">
+    							<h3>Features and demo</h3>
+    						</div>
+    					</div>
+    					<div class="row">
+    						<div class="column width-12">
+    							<div class="row content-grid-2 masonry-grid">
+    								<div class="grid-item grid-sizer">
+    									<div class="thumbnail">
+    										<h5 class="color-white">Two-handed interaction</h5>
+    										<p>The system switches seamlessly between single handed and two handed grabs, allowing the user to adjust any object they are holding just like they would in real life. No longer do you need to strain your wrists to pick up an object just the right way.</p>
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="thumbnail">
+    										<img src="../images/portfolio/project-4/clothing-large-grid-2.jpg" alt=""/>
+    									</div>
+    									<div class="caption-below color-white">
+    										Two-handed interaction
+    									</div>
+    								</div>
+    							</div>
+    						</div>	
+    					</div>
+
+    					<div class="row">
+    						<div class="column width-12">
+    							<div class="row content-grid-3 masonry-grid">
+    								<div class="grid-item grid-sizer">
+    									<div class="thumbnail">
+    										<h5 class="color-white">Massive objects</h5>
+    										<p>Objects respond differently to manipulation depending on their mass. Heavy objects will react slower to input, lagging behind the user's "action" or continuing on their path when the user has already stopped dragging them. Put too much strain on your grabbing hand and the object will slip between your fingers.</p>
+    										<p>This is where the distinction between your hands and your action becomes important. By visualising this difference, the system retains a responsive feeling.</p>
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="thumbnail">
+    										<img src="../images/portfolio/project-4/clothing-large-grid-2.jpg" alt=""/>
+    									</div>
+    									<div class="caption-below color-white">
+    										Inertia and momentum in heavy objects
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="thumbnail">
+    										<img src="../images/portfolio/project-4/clothing-large-grid-2.jpg" alt=""/>
+    									</div>
+    									<div class="caption-below color-white">
+    										Grip strength
+    									</div>
+    								</div>
+    							</div>
+    						</div>	
+    					</div>
+
+    					<div class="row">
+    						<div class="column width-12">
+    							<div class="row content-grid-3 masonry-grid">
+    								<div class="grid-item grid-sizer">
+    									<div class="thumbnail">
+    										<h5 class="color-white">Precision</h5>
+    										<p>Not all object manipulation is free and unconstrained. Controls like levers, sliders, switches, dials and others all require the manipulated object to follow a certain path or stay in a certain orientation. Precision placement of objects becomes much easier by applying simple alignment snaps.</p>
+    										<p>Hands On's constraint system can be used and extended for a range of applications. This makes it just as suitable for inserting a puzzle piece or controlling a valve as it is for throwing a ball.</p>
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="thumbnail">
+    										<img src="../images/portfolio/project-4/clothing-large-grid-2.jpg" alt=""/>
+    									</div>
+    									<div class="caption-below color-white">
+    										Levers and sliders
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="thumbnail">
+    										<img src="../images/portfolio/project-4/clothing-large-grid-2.jpg" alt=""/>
+    									</div>
+    									<div class="caption-below color-white">
+    										Position/orientation snapping
+    									</div>
+    								</div>
+    							</div>
+    						</div>	
+    					</div>
+
+    					<div class="row">
+    						<div class="column width-12">
+    							<div class="row content-grid-2 masonry-grid">
+    								<div class="grid-item grid-sizer">
+    									<div class="thumbnail">
+    										<h5 class="color-white">Support for tools</h5>
+    										<p>Sometimes, interaction with an object is more elaborate than a simple pick up and drop. Hands On features various grab modes to facilitate different kinds of object usage.</p>
+    										<p>Besides localized and aligned grabs, objects can be configured as a tool which snaps them to a certain orientation when you pick them up and keeps them there until you drop them again. This frees up buttons and allows for tools like screwdrivers, guns, flashlights or even bows.</p>
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="thumbnail">
+    										<img src="../images/portfolio/project-4/clothing-large-grid-2.jpg" alt=""/>
+    									</div>
+    									<div class="caption-below color-white">
+    										Levers and sliders
+    									</div>
+    								</div>
+    							</div>
+    						</div>	
+    					</div>
+    					
+    				</div>
+    			</div>
+    			<!-- Portfolio 1 End -->
+
+
+
+    			<!-- Footer 1-->
+    			<footer class="footer-1 footer reveal-side-navigation">
+    				<div class="footer-top">
+    					<div class="row">
+    						<div class="column width-2">
+    							<div class="footer-top-inner">
+    								<div class="footer-logo">
+    									<a href="index.html"><img src="../images/logo-footer.png" alt="Thijs Schipper Logo" /></a>
+    								</div>
+    							</div>
+    						</div>
+    						<div class="column width-10">
+    							<div class="row content-grid-3">
+    								<div class="grid-item">
+    									<div class="widget">
+    										<h4>Featured Projects</h4>
+    										<ul>
+    											<!--<li><a href="#">Rockabilly Barber</a></li>-->
+    										</ul>
+    									</div>
+    								</div>
+    								<div class="grid-item">
+    									<div class="widget">
+    										<h4>News</h4>
+    										<ul class="list-group large">
+								<!--
+								<li>
+									<a href="#">Our New Los Angeles Office </a>
+									<span class="post-info"><span class="post-date">27 Jul 2014</span></span>
+								</li>
+							-->
+						</ul>
+					</div>
+				</div>
+					<!-- NEWSLETTER SIGNUP?
+					<div class="grid-item">
+						<h4>Stay Creative</h4>
+						<div class="signup-form-container">
+							<form class="signup-form" action="#" method="post" novalidate>
+								<div class="row">
+									<div class="column width-12">
+										<div class="field-wrapper">
+											<input type="text" name="fname" class="form-name form-element small" placeholder="First Name" tabindex="1" required>
+											<span class="border"></span>
+										</div>
+									</div>
+									<div class="column width-12">
+										<div class="field-wrapper">
+											<input type="email" name="email" class="form-email form-element small" placeholder="Email" tabindex="2" required>
+											<span class="border"></span>
+										</div>
+									</div>
+									<div class="column width-12">
+										<input type="submit" value="Signup" class="form-submit rounded button small border-grey bkg-hover-charcoal-light color-white color-hover-white">
+									</div>
+								</div>
+								<input type="text" name="honeypot" class="form-honeypot form-element">
+							</form>
+							<div class="form-response color-white show">We don't spam, promise!</div>
+						</div>
+					</div>
+				-->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-bottom">
+	<div class="row">
+		<div class="column width-12">
+			<div class="footer-bottom-inner">
+				<ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
+					<li><a href="https://www.linkedin.com/in/thijs-schipper-1287129"><span class="icon-linkedin"></span>Linkedin</a></li>
+				</ul>
+				<nav class="navigation pull-right clear-float-on-mobile">
+					<ul>
+						<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Back Top</a>/</li>
+						<li><a href="contact-style-one.html" class="fade-location"><span class="icon-right-open-mini"></span>Hire Me!</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div> 
+</div>
+</footer>
+<!-- Footer 1 End -->
+
+</div>
+</div>
+
+<!-- Js -->
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+<script src="../js/timber.master.min.js"></script>
+<script src="../js/template-functions.js"></script>
+</body>
+</html>
