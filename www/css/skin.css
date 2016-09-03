@@ -1261,6 +1261,12 @@ h5.project-title{
 	background-color: #fafafa;
 }
 
+/* Project VR interaction */
+.hero-7.hero-7-project-hands-on > .row:after{
+	background-image: url(../images/portfolio/interaction-framework/grabs-illustration.png);
+}
+
+
 /* Project 2 */
 .project-2-1{
 	background-image: url(../images/portfolio/project-2/background-image.jpg);
