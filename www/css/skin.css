@@ -2722,3 +2722,14 @@ only screen and (				min-resolution: 2dppx) {
 .hero-2-content-previewer-1 {
 	background-image: url(../images/portfolio/content-previewer/understanding-dark.png);
 }
+
+
+/* Content previewer page-wide background */
+.hero-2-homepage-dbd {
+	background-image: url(../images/generic/design-by-doing-2.jpg);
+}
+
+/* Approach pagewide background */
+.hero-2-approach-dbd {
+	background-image: url(../images/generic/wall-of-postits.jpg);
+}
