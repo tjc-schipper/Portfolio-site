@@ -1261,16 +1261,7 @@ h5.project-title{
 	background-color: #fafafa;
 }
 
-/* Project VR interaction */
-.hero-7.hero-7-project-hands-on > .row:after{
-	background-image: url(../images/portfolio/interaction-framework/grabs-illustration.png);
-}
 
-
-/* Project VR interaction */
-.hero-7.hero-7-project-spark-of-light > .row:after{
-	background-image: url(../images/portfolio/spark-of-light/sparkoflight-firefly.jpg);
-}
 
 /* Project 2 */
 .project-2-1{
@@ -2681,4 +2672,53 @@ only screen and (				min-resolution: 2dppx) {
 	.fs-section-5{
 		background-image: url(../images/slider/slide-7-fs@2x.jpg);
 	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************
+***CUSTOM SHIT***
+****************/
+
+
+/* Project VR interaction */
+.hero-7.hero-7-project-hands-on > .row:after{
+	background-image: url(../images/portfolio/interaction-framework/grabs-illustration.png);
+}
+
+/* Project VR interaction */
+.hero-7.hero-7-project-spark-of-light > .row:after{
+	background-image: url(../images/portfolio/spark-of-light/sparkoflight-firefly.jpg);
+}
+
+/* Content previewer page-wide background */
+.hero-2-content-previewer-1 {
+	background-image: url(../images/portfolio/content-previewer/understanding-dark.png);
 }

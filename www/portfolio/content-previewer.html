@@ -1,374 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
-  <!-- Facebook OP meta -->          
-  <meta property="og:title" content="Your-Title-Here" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="Your-Image-Url" />
-  <meta property="og:description" content="Your-Page-Description" />
-  <title>&ranj Content Previewer - Thijs Schipper</title>
-  <link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<!-- Facebook OP meta -->          
+	<meta property="og:title" content="Your-Title-Here" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="Your-Image-Url" />
+	<meta property="og:description" content="Your-Page-Description" />
+	<title>&ranj Content Previewer - Thijs Schipper</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
-  <!-- Font -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
-  
-  <!-- Css -->
-  <link rel="stylesheet" href="../css/timber.css" />
-  <link rel="stylesheet" href="../css/snowbridge.css" />
-  <link rel="stylesheet" href="../css/avalanche.css" />
-  <link rel="stylesheet" href="../css/templates.css" />
-  <link rel="stylesheet" href="../css/skin.css" />
+	<!-- Font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/timber.css" />
+	<link rel="stylesheet" href="../css/snowbridge.css" />
+	<link rel="stylesheet" href="../css/avalanche.css" />
+	<link rel="stylesheet" href="../css/templates.css" />
+	<link rel="stylesheet" href="../css/skin.css" />
 
-  <!--[if lt IE 9]>
-      <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<!--[if lt IE 9]>
+			<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-82620621-1', 'auto');
-      ga('send', 'pageview');
+			ga('create', 'UA-82620621-1', 'auto');
+			ga('send', 'pageview');
 
-    </script>
+		</script>
 
-  </head>
-  <body>
+	</head>
+	<body>
 
-    <!-- Side Navigation Menu -->
-    <aside id="mobile-access" class="side-navigation-wrapper enter-left">
-      <div class="side-navigation-header">
-        <div id="side-nav-hide" class="navigation-hide">
-          <a href="#">
-            <span class="icon-cancel medium"></span>
-          </a>
-        </div>
-      </div>
-      <nav class="side-navigation">
-        <ul>
-          <li>
-            <a href="../index.html">Home</a>
-          </li>
-          <li>
-            <a href="#" class="contains-sub-menu">About me</a>
-            <ul class="sub-menu">
-              <li>
-                <a href="../profile.html">Profile</a>
-              </li>
-              <li>
-                <a href="../approach.html">Approach</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="../portfolio.html">My work</a>
-          </li>
-          <li>
-            <a href="../contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
-    <!-- Side Navigation Menu End -->
+		<!-- Side Navigation Menu -->
+		<aside id="mobile-access" class="side-navigation-wrapper enter-left">
+			<div class="side-navigation-header">
+				<div id="side-nav-hide" class="navigation-hide">
+					<a href="#">
+						<span class="icon-cancel medium"></span>
+					</a>
+				</div>
+			</div>
+			<nav class="side-navigation">
+				<ul>
+					<li>
+						<a href="../index.html">Home</a>
+					</li>
+					<li>
+						<a href="#" class="contains-sub-menu">About me</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="../profile.html">Profile</a>
+							</li>
+							<li>
+								<a href="../approach.html">Approach</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="../portfolio.html">My work</a>
+					</li>
+					<li>
+						<a href="../contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<!-- Side Navigation Menu End -->
 
-    <!-- Overlay Navigation Search -->
-    <div class="overlay-navigation-wrapper">
-      <div class="overlay-navigation-inner">
-        <div class="overlay-navigation-header row full-width">
-          <div id="overlay-nav-hide" class="navigation-hide">
-            <a href="#">
-              <span class="icon-cancel medium"></span>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column width-8 offset-2">
-            <div class="search-form-container site-search">
-              <form action="#" method="get" novalidate>
-                <div class="row">
-                  <div class="column width-12">
-                    <div class="field-wrapper">
-                      <input type="text" name="search" class="form-search form-element" placeholder="type &amp; hit enter...">
-                      <span class="border"></span>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="form-response"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Overlay Navigation Search End -->
+		<!-- Overlay Navigation Search -->
+		<div class="overlay-navigation-wrapper">
+			<div class="overlay-navigation-inner">
+				<div class="overlay-navigation-header row full-width">
+					<div id="overlay-nav-hide" class="navigation-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column width-8 offset-2">
+						<div class="search-form-container site-search">
+							<form action="#" method="get" novalidate>
+								<div class="row">
+									<div class="column width-12">
+										<div class="field-wrapper">
+											<input type="text" name="search" class="form-search form-element" placeholder="type &amp; hit enter...">
+											<span class="border"></span>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="form-response"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Overlay Navigation Search End -->
 
-    <div class="wrapper">
-      <div class="wrapper-inner">
+		<div class="wrapper">
+			<div class="wrapper-inner">
 
-        <!-- Header -->
-        <header class="header-1 header header-fixed-on-mobile" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="300">
-          <div class="header-inner">
-            <div class="row nav-bar reveal-side-navigation">
-              <div class="column width-12 nav-bar-inner">
-                <div class="logo">
-                  <a href="../index.html"><img src="../images/logo.png" alt="Thijs Schipper" /></a>
-                </div>
-                <div id="side-nav-show" class="navigation-show hide">
-                  <a href="#">
-                    <span class="icon-menu medium"></span>
-                  </a>
-                </div>
-                <nav class="navigation">
-                  <ul>
-                    <li class="smb-1">
-                      <a href="../index.html">Home</a>
-                    </li>
-                    <li class="smb-2">
-                      <a href="../profile.html">About me</a>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="../profile.html">Profile</a>
-                        </li>
-                        <li>
-                          <a href="../approach.html">Approach</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="smb-3 current">
-                      <a href="../portfolio.html">My work</a>
-                    </li>
-                    <li class="smb-5">
-                      <a href="../contact.html">Contact</a>
-                    </li>
-                    <li id="overlay-nav-show">
-                      <a href="#" class="no-page-fade">Search</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </header>
-        <!-- Header End -->
+				<!-- Header -->
+				<header class="header-1 header header-fixed-on-mobile" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="300">
+					<div class="header-inner">
+						<div class="row nav-bar reveal-side-navigation">
+							<div class="column width-12 nav-bar-inner">
+								<div class="logo">
+									<a href="../index.html"><img src="../images/logo.png" alt="Thijs Schipper" /></a>
+								</div>
+								<div id="side-nav-show" class="navigation-show hide">
+									<a href="#">
+										<span class="icon-menu medium"></span>
+									</a>
+								</div>
+								<nav class="navigation">
+									<ul>
+										<li class="smb-1">
+											<a href="../index.html">Home</a>
+										</li>
+										<li class="smb-2">
+											<a href="../profile.html">About me</a>
+											<ul class="sub-menu">
+												<li>
+													<a href="../profile.html">Profile</a>
+												</li>
+												<li>
+													<a href="../approach.html">Approach</a>
+												</li>
+											</ul>
+										</li>
+										<li class="smb-3 current">
+											<a href="../portfolio.html">My work</a>
+										</li>
+										<li class="smb-5">
+											<a href="../contact.html">Contact</a>
+										</li>
+										<li id="overlay-nav-show">
+											<a href="#" class="no-page-fade">Search</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+				<!-- Header End -->
 
-        <!-- Content -->
-        <div class="content clearfix reveal-side-navigation">
+				<!-- Content -->
+				<div class="content clearfix reveal-side-navigation">
 
-          <!-- Fullscreen Slider Section -->
-          <section class="section-block featured-media">
-            <div class="tm-slider-container full-width-slider">
-              <ul class="tms-slides">
-                <li class="tms-slide" data-image data-force-fit>
-                  <div class="tms-content">
-                    <div class="tms-content-inner">
-                      <div class="row">
-                        <div class="column width-12 left">
-                          <h1 class="tms-caption title-xlarge color-white weight-bold lspacing-medium no-margins" data-animate-in="opacity:0;transX:40px;duration:600ms;delay:0;easing:easeFastSlow;">
-                            &ranj Content Previewer
-                          </h1>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img data-src="../images/slider/slide-2-fw.jpg" data-retina src="../images/blank.png" alt=""/>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <!-- Fullscreen Slider Section End -->
+					<!-- Fullscreen Slider Section -->
+					<section class="section-block featured-media">
+						<div class="tm-slider-container full-width-slider">
+							<ul class="tms-slides">
+								<li class="tms-slide" data-image data-force-fit>
+									<div class="tms-content">
+										<div class="tms-content-inner">
+											<div class="row">
+												<div class="column width-12 left">
+													<h1 class="tms-caption title-xlarge color-white weight-bold lspacing-medium no-margins" data-animate-in="opacity:0;transX:40px;duration:600ms;delay:0;easing:easeFastSlow;">
+														&ranj Content Previewer
+													</h1>
+												</div>
+											</div>
+										</div>
+									</div>
+									<img data-src="../images/portfolio/content-previewer/cover-green.png" data-retina src="../images/portfolio/content-previewer/cover-green.png" alt=""/>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<!-- Fullscreen Slider Section End -->
 
-          <!-- Intro Section -->
-          <section class="section-block replicable-content">
-            <div class="row">
-              <div class="column width-8">
-                <h3 class="weight-bold mb-30">Bridging the gap</h3>
-                <p class="lead">Creating narrative serious games takes an immense deal of research, teamwork and communication between all involved parties. This tool makes it easier.</p>
-                <p>The Content Previewer was created to bridge the gap between game designers, developers and clients during the creation of &ranj's narrative serious games. By giving clients the ability to <strong>review and edit game content independently</strong>, it facilitates much faster iteration, better sharing of knowledge and - ultimately - better games.</p>
-              </div>
-              <div class="column width-4">
-               <ul class="list-group">
-                <li>
-                 <strong>Client</strong>
-                 <p>&ranj Serious Games<br>
-                 Technical University Delft</p>
-               </li>
-               <li>
-                 <strong>Results</strong>
-                 <p>Thesis<br>
-                  Concept and interaction design<br>
-                </p>
-              </li>
-              <li>
-               <strong>Details</strong>
-               <p>TU Delft Master Graduation project<br>
-               </p>
-             </li>
-           </ul>
-         </div>
-       </div>
-     </section>
-     <!-- Intro Section End -->
+					<!-- Intro Section -->
+					<section class="section-block replicable-content">
+						<div class="row">
+							<div class="column width-8">
+								<h3 class="weight-bold mb-30">Bridging the gap</h3>
+								<p class="lead">Creating narrative serious games takes an immense deal of research, teamwork and communication between all involved parties. This tool makes it easier.</p>
+								<p>The Content Previewer was created to bridge the gap between game designers, developers and clients during the creation of &ranj's narrative serious games. By giving clients the ability to <strong>review and edit game content independently</strong>, it facilitates much faster iteration, better sharing of knowledge and - ultimately - better games.</p>
+							</div>
+							<div class="column width-4">
+								<ul class="list-group">
+									<li>
+										<strong>Client</strong>
+										<p>&ranj Serious Games<br>
+										Technical University Delft</p>
+									</li>
+									<li>
+										<strong>Results</strong>
+										<p>Thesis<br/>
+											Concept and interaction design<br/>
+											Working prototype<br/>
+											Physical puzzle version
+										</p>
+									</li>
+									<li>
+										<strong>Details</strong>
+										<p>TU Delft Master Graduation project<br>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<!-- Intro Section End -->
 
-     <!-- Branding Section -->
-     <section class="section-block replicable-content">
-       <div class="row">
-        <div class="column width-12">
-         <h3 class="weight-bold mb-30 center">Introducing: our users</h3>
-       </div>
-       
-       <div class="column width-6">
-         <h4>Designer (&ranj)</h4>
-         <img class="thumbnail" href="" />
-         <h5>Knows:</h5>
-         <ul>
-           <li>Games and game design</li>
-           <li>Technology and platform</li>
-         </ul>
-         <h5>Needs:</h5>
-         <ul>
-           <li>Insight into client's business</li>
-           <li>Client's goals and feedback</li>
-         </ul>
-       </div>
-       
-       <div class="column width-6">
-         <h4>Expert (Client)</h4>
-         <img class="thumbnail" href="" />
-         <h5>Knows:</h5>
-         <ul>
-           <li>Context, daily practice and subject</li>
-           <li>Target audience</li>
-         </ul>
-         <h5>Needs:</h5>
-         <ul>
-           <li>Insight into the game's design and experience</li>
-           <li>Ability to contribute meaningfully and directly</li>
-         </ul>
-       </div>
+					<!-- Branding Section -->
+					<section class="section-block replicable-content">
+						<div class="row">
+							<div class="column width-12">
+								<h3 class="weight-bold mb-30">Introducing: our users</h3>
+							</div>
 
-       <div class="column width-12">
-         <p>Only when these people's expertise and insight combine do we end up with an effective and accurate narrative serious game.<br>
-         However, this is currently a long and intensive process. A game's content goes through many intermediate steps, reviews, revisions and formats: Flowcharts, scripts, story outlines, tables, etc.</p>
-         <p>It turns out that it is <strong>very hard to get a good read on game content without playing it</strong>. That's when you really see how the conversation flows, how a character comes across or how meaningful a choice is. Client input would be much improved if they had this context when reviewing content.</p>
-       </div>
-     </div>
-   </section>
-   <!-- Branding Section End -->
+							<div class="column width-6">
+								<h4>Designer (&ranj)</h4>
+								<img class="thumbnail" src="../images/portfolio/content-previewer/designer.png" />
+								<h5>Knows:</h5>
+								<ul>
+									<li>Games and game design</li>
+									<li>Technology and platform</li>
+								</ul>
+								<h5>Needs:</h5>
+								<ul>
+									<li>Insight into client's business</li>
+									<li>Client's goals and feedback</li>
+								</ul>
+							</div>
 
-   <!-- Hero Section 2 -->
-   <section class="section-block hero-2 hero-2-homepage-1">
-    <div class="row">
-      <div class="column width-8 offset-2 center">
-        <div class="hero-content">
-          <div class="hero-content-inner color-white horizon" data-animate-in="transY:60px;delay:0;duration:1000ms;" data-threshold="1">
-            <h3>It's all about context</h3>
-            <blockquote class="large">
-              <p>An expert needs to <strong>truly understand</strong> the game content they are editing to be able to contribute meaningfully.</p>
-              <ul>
-                <li>"Where will this choice lead?"</li>
-                <li>"Whose line is this?"</li>
-                <li>"What happens if the player doesn't succeed?"</li>
-                <li>"How should I interpret this sentence? What tone or emotion is it spoken with?"</li>
-              </ul>
-              <p>Content Previewer aims at providing this context in an easy to digest way with minimal training.</p>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Hero Section 2 End -->
+							<div class="column width-6">
+								<h4>Expert (Client)</h4>
+								<img class="thumbnail" src="../images/portfolio/content-previewer/sme.png" />
+								<h5>Knows:</h5>
+								<ul>
+									<li>Context, daily practice and subject</li>
+									<li>Target audience</li>
+								</ul>
+								<h5>Needs:</h5>
+								<ul>
+									<li>Insight into the game's design and experience</li>
+									<li>Ability to contribute meaningfully and directly</li>
+								</ul>
+							</div>
 
-  <!-- Branding Section -->
-  <section class="section-block replicable-content">
-   <div class="row">
-    <div class="column width-12">
-     <h3 class="weight-bold mb-30">The concept</h3>
-   </div>
-   <div class="column width-12">
-     <p>Content Previewer consists of two interrelated parts that were designed and developed in parallel. They were designed for our Subject Matter Experts as primary users. Together they give SMEs the insight and ability to <strong>edit in-game conversations, stories, consequences and outcomes</strong> while playing the game.</p>
-   </div>
-   <div class="column width-6">
-     <p class="lead">Visual story-building language</p>
-     <img class="thumbnail" href="" />
-     <p>The visual language is a schematic way of representing in-game content in a way that a non-developer will be able to intuitively understand. It follows common visual programming paradigms, but is based on terms, units and concepts that anyone will be familiar with: <strong>Sentences, choices, locations, people, consequences, goals, etc.</strong></p>
-     <p>Using this visual language, Content Previewer is able to map out the available game content and create an easy to read overview. This overview helps Subject Matter Experts both edit and <strong>understand</strong> what is happening in the game and how they can affect that.
-     </div>
-     <div class="column width-6">
-       <p class="lead">Content Previewer web application</p>
-       <img class="thumbnail" href="" />
-       <p>The application itself features a large "context window" (right) next to the game window and editing tools. While the user plays</p>
-     </div>
-   </div>
- </section>
- <!-- Branding Section End -->
+							<div class="column width-12">
+								<p>Only when these people's expertise and insight combine do we end up with an effective and accurate narrative serious game.<br>
+								However, this is currently a long and intensive process. A game's content goes through many intermediate steps, reviews, revisions and formats: Flowcharts, scripts, story outlines, tables, etc.</p>
+								<p>It turns out that it is <strong>very hard to get a good read on game content without playing it</strong>. That's when you really see how the conversation flows, how a character comes across or how meaningful a choice is. Client input would be much improved if they had this <strong>context</strong> when reviewing content.</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="column width-6 push-3">
+								<img class="thumbnail" src="../images/portfolio/content-previewer/understanding-overlap.png" />
+							</div>
+						</div>
+					</section>
+					<!-- Branding Section End -->
+
+					<!-- Hero Section 2 -->
+					<section class="section-block hero-2 hero-2-content-previewer-1">
+						<div class="row">
+							<div class="column width-8 offset-2 center">
+								<div class="hero-content">
+									<div class="hero-content-inner color-black horizon" data-animate-in="transY:60px;delay:0;duration:1000ms;" data-threshold="1">
+										<h3>It's all about context</h3>
+										<blockquote class="large">
+											<p>An expert needs to <strong>truly understand</strong> the game content they are editing to be able to contribute meaningfully.</p>
+											<ul>
+												<li>"Where will this choice lead?"</li>
+												<li>"Whose line is this?"</li>
+												<li>"What happens if the player doesn't succeed?"</li>
+												<li>"How should I interpret this sentence? What tone or emotion is it spoken with?"</li>
+											</ul>
+											<p>Content Previewer aims at providing this context in an easy to digest way with minimal training.</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Hero Section 2 End -->
+
+					<!-- Branding Section -->
+					<section class="section-block replicable-content">
+						<div class="row">
+							<div class="column width-12">
+								<h3 class="weight-bold mb-30">The concept</h3>
+							</div>
+							<div class="column width-12">
+								<p>Content Previewer consists of two interrelated parts that were designed and developed in parallel. They were designed for our Subject Matter Experts as primary users. Together they give SMEs the insight and ability to <strong>edit in-game conversations, stories, consequences and outcomes</strong> while playing the game.</p>
+							</div>
+							<div class="column width-6">
+								<h4>Visual story-building language</h4>
+								<img class="thumbnail" src="../images/portfolio/content-previewer/visual-language.png" />
+								<p>The visual language is a schematic way of representing in-game content in a way that a non-developer will be able to intuitively understand. It follows common visual programming paradigms, but is based on terms, units and concepts that anyone will be familiar with: <strong>Sentences, choices, locations, people, consequences, goals, etc.</strong></p>
+								<p>Using this visual language, Content Previewer is able to map out the available game content and create an easy to read overview. This overview helps Subject Matter Experts both edit and <strong>understand</strong> what is happening in the game and how they can affect that.
+								</div>
+								<div class="column width-6">
+									<h4>Content Previewer web application</h4>
+									<img class="thumbnail" src="../images/portfolio/content-previewer/application.png" />
+									<p>The application itself features a large "context window" (right) next to the game window and editing tools (left). While the user plays the game, the visual representation on the right is updated, showing them exactly where they are in the game and what the consequences of their choices are. Vice versa, if the user edits the content on the right the game preview on the left is automatically updated to match the new design.</p>
+									<p>Revision and collaboration tools allow a team of one or more game designers and subject matter experts to <strong>collaborate on the same game content</strong>, in full understanding.</p>
+								</div>
+							</div>
+						</section>
+						<!-- Branding Section End -->
+
+
+						<!-- Branding Section -->
+						<section class="section-block replicable-content">
+							<div class="row">
+								<div class="column width-12">
+									<h3 class="weight-bold mb-30">Testing and detailing</h3>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="column width-6">
+									<h4>Visual language</h4>
+									<p>The visual language was iterated several times based on user testing with both game designers, SMEs and other stakeholders in the process. The available set of nodes is shown to the right and can be used to recreate any narrative game &ranj has created to date (and more). It represents the best compromise between functionality, editability, readability and closeness to how an SME thinks a game works.</p>
+								</div>
+								<div class="column width-6">
+									<img class="thumbnail" src="../images/portfolio/content-previewer/set-of-nodes.png" />
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="column width-6">
+									<img class="thumbnail" src="../images/portfolio/content-previewer/prototype.png" />
+								</div>
+								<div class="column width-6">
+									<h4>Application prototype</h4>
+									<p>A <strong>working prototype</strong> of the editor application (left), including a full game scenario and editable diagrams representing it were produced to validate the app as a whole. Though it was created in mockup from using tools like Axure and Adobe Illustrator (rather than an actual web application), it allowed me to <strong>test whether users could work with the concept as a whole</strong>. Around a dozen tests were performed where non-experts were asked to perform certain edits to the game story.</p>
+									<p>Based on their feedback and my observations, the design of the app was tweaked and a story minimap were added, to aid in gaining a quick overview of the player's position in the scenario.</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="column width-6">
+									<h4>Physical version</h4>
+									<p>In addition to the final version of the story language, an earlier version proved to be excellent for collaborative bigger picture storyline creation. A simplified, printable physical version was created to be used during brainstorming sessions in early phases of a project.</p>
+									<p>Rather than focusing on the details of dialogue and scenarios, it deals with larger plot beats, decision points and arcs. The printable tiles essentially act as puzzle pieces that can be chained together in certain ways.</p>
+									<p>Using this tool helps keep ideas and scope under control during early phases of the project. If the story becomes hard to build using the puzzle pieces, it will probably be equally as hard to build in the digital realm.</p>
+								</div>
+								<div class="column width-6">
+									<img class="thumbnail" src="../images/portfolio/content-previewer/physical-version.png" />
+								</div>
+							</div>
+						</section>
+						<!-- Branding Section End -->
 
 
 
 
- <!-- Footer 1-->
- <footer class="footer-1 footer reveal-side-navigation">
-  <div class="footer-top">
-    <div class="row">
-      <div class="column width-2">
-        <div class="footer-top-inner">
-          <div class="footer-logo">
-            <a href="index.html"><img src="../images/logo-footer.png" alt="Thijs Schipper Logo" /></a>
-          </div>
-        </div>
-      </div>
-      <div class="column width-10">
-        <div class="row content-grid-3">
-          <div class="grid-item">
-            <div class="widget">
-              <h4>Featured Projects</h4>
-              <ul>
-                <!--<li><a href="#">Rockabilly Barber</a></li>-->
-              </ul>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="widget">
-              <h4>News</h4>
-              <ul class="list-group large"></ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <div class="row">
-      <div class="column width-12">
-        <div class="footer-bottom-inner">
-          <ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
-            <li><a href="https://www.linkedin.com/in/thijs-schipper-1287129"><span class="icon-linkedin"></span>Linkedin</a></li>
-          </ul>
-          <nav class="navigation pull-right clear-float-on-mobile">
-            <ul>
-              <li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Back Top</a>/</li>
-              <li><a href="contact-style-one.html" class="fade-location"><span class="icon-right-open-mini"></span>Hire Me!</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div> 
-  </div>
-</footer>
-<!-- Footer 1 End -->
+						<!-- Footer 1-->
+						<footer class="footer-1 footer reveal-side-navigation">
+							<div class="footer-top">
+								<div class="row">
+									<div class="column width-2">
+										<div class="footer-top-inner">
+											<div class="footer-logo">
+												<a href="index.html"><img src="../images/logo-footer.png" alt="Thijs Schipper Logo" /></a>
+											</div>
+										</div>
+									</div>
+									<div class="column width-10">
+										<div class="row content-grid-3">
+											<div class="grid-item">
+												<div class="widget">
+													<h4>Featured Projects</h4>
+													<ul>
+														<!--<li><a href="#">Rockabilly Barber</a></li>-->
+													</ul>
+												</div>
+											</div>
+											<div class="grid-item">
+												<div class="widget">
+													<h4>News</h4>
+													<ul class="list-group large"></ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer-bottom">
+								<div class="row">
+									<div class="column width-12">
+										<div class="footer-bottom-inner">
+											<ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
+												<li><a href="https://www.linkedin.com/in/thijs-schipper-1287129"><span class="icon-linkedin"></span>Linkedin</a></li>
+											</ul>
+											<nav class="navigation pull-right clear-float-on-mobile">
+												<ul>
+													<li><a data-no-hide class="scroll-to-top no-page-fade no-margin-left" href="#">Back Top</a>/</li>
+													<li><a href="contact-style-one.html" class="fade-location"><span class="icon-right-open-mini"></span>Hire Me!</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div> 
+							</div>
+						</footer>
+						<!-- Footer 1 End -->
 
-</div>
-</div>
+					</div>
+				</div>
 
-<!-- Js -->
-<script src="../js/jquery-1.11.2.min.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
-<script src="../js/timber.master.min.js"></script>
-<script src="../js/template-functions.js"></script>
-</body>
-</html>
+				<!-- Js -->
+				<script src="../js/jquery-1.11.2.min.js"></script>
+				<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+				<script src="../js/timber.master.min.js"></script>
+				<script src="../js/template-functions.js"></script>
+			</body>
+			</html>
